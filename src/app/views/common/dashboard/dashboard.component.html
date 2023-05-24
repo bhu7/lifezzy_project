@@ -1,0 +1,43 @@
+<div>
+    <div>
+        <h3>Welcome back !</h3>
+    </div>
+
+    <div class="card-deck card-grid-3 " [class.card_grid_2]="card_grid_2">
+
+        <div class="card" (click)="navigateToSelectedDashboard(1)" title="Doctors Dashboard">
+            <div>
+                image container
+            </div>
+
+            <div class="card-footer">
+                <div class="card-footer-text">
+                    <div>
+                        <h6>Doctors</h6>
+                    </div>
+                    <div class="info-icon"><span><i class="fa fa-info"></i></span></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" (click)="navigateToSelectedDashboard(2)" title="Mobile View Productivity Study">
+            <div>
+                image container
+            </div>
+
+            <div class="card-footer ">
+                <div class="card-footer-text">
+                    <div>
+                        <h6>Patients</h6>
+                    </div>
+                    <div class="info-icon"><span><i class="fa fa-info"></i></span></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+</div>
